@@ -1,0 +1,200 @@
+{
+  "folders": [
+    {
+      "name": "Identidad Be Dental",
+      "cover": "images/gallery/01-Identidad-Be-Dental/cover.webp",
+      "images": [
+        {
+          "name": "cover",
+          "file": "images/gallery/01-Identidad-Be-Dental/cover.webp"
+        },
+        {
+          "name": "1",
+          "file": "images/gallery/01-Identidad-Be-Dental/1.webp"
+        },
+        {
+          "name": "2",
+          "file": "images/gallery/01-Identidad-Be-Dental/2.webp"
+        },
+        {
+          "name": "3",
+          "file": "images/gallery/01-Identidad-Be-Dental/3.webp"
+        },
+        {
+          "name": "4",
+          "file": "images/gallery/01-Identidad-Be-Dental/4.webp"
+        }
+      ]
+    },
+    {
+      "name": "Identidad Cocina Gourmet",
+      "cover": "images/gallery/02-Identidad-Cocina-Gourmet/cover.webp",
+      "images": [
+        {
+          "name": "cover",
+          "file": "images/gallery/02-Identidad-Cocina-Gourmet/cover.webp"
+        },
+        {
+          "name": "1",
+          "file": "images/gallery/02-Identidad-Cocina-Gourmet/1.webp"
+        },
+        {
+          "name": "2",
+          "file": "images/gallery/02-Identidad-Cocina-Gourmet/2.webp"
+        },
+        {
+          "name": "3",
+          "file": "images/gallery/02-Identidad-Cocina-Gourmet/3.webp"
+        },
+        {
+          "name": "4",
+          "file": "images/gallery/02-Identidad-Cocina-Gourmet/4.webp"
+        },
+        {
+          "name": "5",
+          "file": "images/gallery/02-Identidad-Cocina-Gourmet/5.webp"
+        },
+        {
+          "name": "6",
+          "file": "images/gallery/02-Identidad-Cocina-Gourmet/6.webp"
+        }
+      ]
+    },
+    {
+      "name": "Diseño de Editorial",
+      "cover": "images/gallery/03-Dise%C3%B1o-de-Editorial/cover.webp",
+      "images": [
+        {
+          "name": "cover",
+          "file": "images/gallery/03-Dise%C3%B1o-de-Editorial/cover.webp"
+        },
+        {
+          "name": "1",
+          "file": "images/gallery/03-Dise%C3%B1o-de-Editorial/1.webp"
+        },
+        {
+          "name": "2",
+          "file": "images/gallery/03-Dise%C3%B1o-de-Editorial/2.webp"
+        },
+        {
+          "name": "3",
+          "file": "images/gallery/03-Dise%C3%B1o-de-Editorial/3.webp"
+        },
+        {
+          "name": "4",
+          "file": "images/gallery/03-Dise%C3%B1o-de-Editorial/4.webp"
+        },
+        {
+          "name": "5",
+          "file": "images/gallery/03-Dise%C3%B1o-de-Editorial/5.webp"
+        },
+        {
+          "name": "6",
+          "file": "images/gallery/03-Dise%C3%B1o-de-Editorial/6.webp"
+        },
+        {
+          "name": "7",
+          "file": "images/gallery/03-Dise%C3%B1o-de-Editorial/7.webp"
+        },
+        {
+          "name": "8",
+          "file": "images/gallery/03-Dise%C3%B1o-de-Editorial/8.webp"
+        }
+      ]
+    },
+    {
+      "name": "Identidad Centro Vasco Zazpirak Bat",
+      "cover": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/cover.webp",
+      "images": [
+        {
+          "name": "cover",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/cover.webp"
+        },
+        {
+          "name": "1",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/1.webp"
+        },
+        {
+          "name": "2",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/2.webp"
+        },
+        {
+          "name": "3",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/3.webp"
+        },
+        {
+          "name": "4",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/4.webp"
+        },
+        {
+          "name": "5",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/5.webp"
+        },
+        {
+          "name": "6",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/6.webp"
+        },
+        {
+          "name": "7",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/7.webp"
+        },
+        {
+          "name": "8",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/8.webp"
+        },
+        {
+          "name": "9",
+          "file": "images/gallery/04-Identidad-Centro-Vasco-Zazpirak-Bat/9.webp"
+        }
+      ]
+    },
+    {
+      "name": "Identidad Inmobiliaria",
+      "cover": "images/gallery/05-Identidad-Inmobiliaria/cover.webp",
+      "images": [
+        {
+          "name": "cover",
+          "file": "images/gallery/05-Identidad-Inmobiliaria/cover.webp"
+        },
+        {
+          "name": "1",
+          "file": "images/gallery/05-Identidad-Inmobiliaria/1.webp"
+        },
+        {
+          "name": "2",
+          "file": "images/gallery/05-Identidad-Inmobiliaria/2.webp"
+        }
+      ]
+    },
+    {
+      "name": "Diseño de Discografía",
+      "cover": "images/gallery/06-Dise%C3%B1o-de-Discograf%C3%ADa/cover.webp",
+      "images": [
+        {
+          "name": "cover",
+          "file": "images/gallery/06-Dise%C3%B1o-de-Discograf%C3%ADa/cover.webp"
+        },
+        {
+          "name": "1",
+          "file": "images/gallery/06-Dise%C3%B1o-de-Discograf%C3%ADa/1.webp"
+        },
+        {
+          "name": "2",
+          "file": "images/gallery/06-Dise%C3%B1o-de-Discograf%C3%ADa/2.webp"
+        },
+        {
+          "name": "3",
+          "file": "images/gallery/06-Dise%C3%B1o-de-Discograf%C3%ADa/3.webp"
+        },
+        {
+          "name": "4",
+          "file": "images/gallery/06-Dise%C3%B1o-de-Discograf%C3%ADa/4.webp"
+        },
+        {
+          "name": "5",
+          "file": "images/gallery/06-Dise%C3%B1o-de-Discograf%C3%ADa/5.webp"
+        }
+      ]
+    }
+  ]
+}

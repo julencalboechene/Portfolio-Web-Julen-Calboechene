@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Julen Calboechene — Diseño & Contenido</title>
+<meta name="description" content="Diseño gráfico, community management y edición de video para redes sociales. Piezas, cuentas y cortes que se mueven con la tendencia sin perder identidad de marca.">
+
+<!-- favicon: inline SVG wordmark, no extra file needed -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230b0b0a'/%3E%3Ctext x='32' y='42' font-family='Arial, sans-serif' font-weight='700' font-size='26' fill='%23f3f1ea' text-anchor='middle'%3EJC%3C/text%3E%3C/svg%3E">
+
+<!-- social preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Julen Calboechene — Diseño & Contenido">
+<meta property="og:description" content="Diseño gráfico, community management y edición de video para redes sociales.">
+<meta property="og:image" content="images/hero-cutout.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Julen Calboechene — Diseño & Contenido">
+<meta name="twitter:description" content="Diseño gráfico, community management y edición de video para redes sociales.">
+<meta name="twitter:image" content="images/hero-cutout.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="preload" as="image" href="images/hero-cutout.png" fetchpriority="high">
+<link rel="stylesheet" href="styles.css?v=20260828z6">
+
+<!-- who this page is about, for search engines -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Julen Calboechene",
+  "jobTitle": "Diseñador gráfico y content manager",
+  "email": "mailto:julencalboechene@gmail.com",
+  "image": "images/about.png",
+  "sameAs": [
+    "https://instagram.com/julencalboechene"
+  ],
+  "knowsAbout": ["Diseño gráfico", "Community management", "Edición de video", "Contenido para redes sociales"]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#trabajo">Saltar al contenido</a>
+
+<!-- splash / preloader -->
+<div class="splash" id="splash" role="status" aria-label="Cargando el portfolio">
+  <div class="splash-inner">
+    <p class="splash-name">JULEN<br>CALBOECHENE</p>
+    <p class="splash-role">Diseño gráfico · Community management · Edición de video</p>
+    <div class="splash-bar"><span class="splash-bar-fill"></span></div>
+    <p class="splash-pct"><span id="splashPct">0</span>%</p>
+  </div>
+</div>
+
+<!-- reusable SVG filter: the halftone / duotone grain used across every photo on the page -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <filter id="halftone" x="-20%" y="-20%" width="140%" height="140%">
+      <feColorMatrix type="matrix"
+        values="0.33 0.33 0.33 0 0
+                0.33 0.33 0.33 0 0
+                0.33 0.33 0.33 0 0
+                0 0 0 1 0" result="gray"/>
+      <feComponentTransfer in="gray" result="contrast">
+        <feFuncR type="linear" slope="1.08" intercept="0.03"/>
+        <feFuncG type="linear" slope="1.08" intercept="0.03"/>
+        <feFuncB type="linear" slope="1.08" intercept="0.03"/>
+      </feComponentTransfer>
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="1" result="noise" seed="7"/>
+      <feColorMatrix in="noise" type="matrix"
+        values="0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0 0
+                0 0 0 0.035 0" result="grain"/>
+      <feComposite in="grain" in2="contrast" operator="over"/>
+    </filter>
+  </defs>
+</svg>
+
+<div class="grain-overlay" aria-hidden="true"></div>
+
+<header class="site-header" id="siteHeader">
+  <a class="wordmark" href="#top">JC</a>
+  <nav class="nav" aria-label="Navegación principal">
+    <a href="#trabajo" data-nav>Trabajo</a>
+    <a href="#cm" data-nav>Community</a>
+    <a href="#reel" data-nav>Reel</a>
+    <a href="#sobre-mi" data-nav>Sobre mí</a>
+    <a href="#contacto" data-nav>Contacto</a>
+  </nav>
+  <a class="btn btn-sm header-cta" href="https://wa.me/5493416288721" target="_blank" rel="noopener">Trabajemos juntos</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+  <a href="#trabajo">Trabajo</a>
+  <a href="#cm">Community</a>
+  <a href="#reel">Reel</a>
+  <a href="#sobre-mi">Sobre mí</a>
+  <a href="#contacto">Contacto</a>
+  <a class="btn mobile-nav-cta" href="https://wa.me/5493416288721" target="_blank" rel="noopener">Trabajemos juntos</a>
+</div>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <p class="eyebrow">Diseño gráfico · Community management · Contenido para redes</p>
+        <h1 class="hero-name">JULEN<br>CALBOECHENE</h1>
+        <p class="hero-role">Diseño marcas, creo contenido y construyo comunidades.</p>
+        <div class="hero-actions">
+          <a class="btn" href="https://wa.me/5493416288721" target="_blank" rel="noopener">Trabajemos juntos</a>
+          <a class="btn btn-ghost" href="#trabajo">Ver trabajo</a>
+        </div>
+      </div>
+      <div class="hero-figure">
+        <img src="images/hero-cutout.png" alt="Julen Calboechene" class="hero-portrait" fetchpriority="high">
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">
+      <span></span>
+      <small>Scroll</small>
+    </div>
+  </section>
+
+  <!-- discipline marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-seq">
+      <span>Diseño gráfico</span><span>·</span><span>Community management</span><span>·</span><span>Edición de video</span><span>·</span><span>Contenido para redes</span><span>·</span>
+      <span>Diseño gráfico</span><span>·</span><span>Community management</span><span>·</span><span>Edición de video</span><span>·</span><span>Contenido para redes</span><span>·</span>
+      <span>Diseño gráfico</span><span>·</span><span>Community management</span><span>·</span><span>Edición de video</span><span>·</span><span>Contenido para redes</span><span>·</span>
+    </div>
+    <div class="marquee-seq">
+      <span>Diseño gráfico</span><span>·</span><span>Community management</span><span>·</span><span>Edición de video</span><span>·</span><span>Contenido para redes</span><span>·</span>
+      <span>Diseño gráfico</span><span>·</span><span>Community management</span><span>·</span><span>Edición de video</span><span>·</span><span>Contenido para redes</span><span>·</span>
+      <span>Diseño gráfico</span><span>·</span><span>Community management</span><span>·</span><span>Edición de video</span><span>·</span><span>Contenido para redes</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- GALERIA -->
+  <section class="section gallery" id="trabajo">
+    <p class="section-label">01 — Trabajo</p>
+    <h2 class="section-title">Piezas gráficas</h2>
+    <p class="section-intro">Proyectos organizados por carpeta. Tanto las piezas gráficas como los recursos visuales fueron creados, editados y retocados por mí.</p>
+
+    <div class="gallery-grid" id="galleryFolders">
+      <!-- las carpetas se cargan desde data/gallery.json -->
+    </div>
+
+    <p class="gallery-empty" id="galleryEmpty" hidden>
+      Todavía no hay proyectos cargados.
+    </p>
+  </section>
+
+  <!-- COMMUNITY MANAGEMENT -->
+  <section class="section cm" id="cm">
+    <p class="section-label">02 — Community</p>
+    <h2 class="section-title">Caso de Community Management</h2>
+    <p class="section-intro">La cuenta que más creció bajo mi gestión: contenido y estrategia de punta a punta.</p>
+
+    <div class="case-list">
+      <article class="case-card">
+        <img src="images/cm-caso.webp" alt="Contenido del feed del Centro Vasco Zazpirak Bat" class="case-thumb" loading="lazy">
+
+        <div class="case-body">
+          <p class="case-label">Community management</p>
+
+          <h3>Centro Vasco Zazpirak Bat</h3>
+
+          <p class="case-desc muted">
+            Durante cuatro meses de gestión, <strong>convertí al Centro Vasco en la institución
+            vasca con mayor comunidad en Instagram de Argentina</strong>, logrando un crecimiento
+            orgánico sostenido. Desarrollé una estrategia centrada en contenido informativo y de
+            valor, sin depender de tendencias, que permitió <strong>fortalecer la comunidad y
+            transformar el crecimiento digital en resultados concretos</strong>, aumentando la
+            asistencia a eventos y la venta de entradas a través de Instagram.
+          </p>
+
+          <ul class="case-stats">
+            <li><strong>+45%</strong><span>seguidores</span></li>
+            <li><strong>120k</strong><span>visualizaciones / mes</span></li>
+            <li><strong>4 meses</strong><span>de gestión</span></li>
+          </ul>
+
+          <div class="case-posts">
+            <p class="case-posts-label">Posteos que funcionaron</p>
+            <div class="post-list">
+
+              <article class="post-card">
+                <img src="images/cm-post-euskera.webp" alt="Placa del posteo: Palabras en Euskera" class="post-thumb" loading="lazy">
+                <div class="post-body">
+                  <h4>Euskera: <span class="post-sub">el idioma que conecta con nuestra comunidad</span></h4>
+                  <ul class="post-stats">
+                    <li><strong>47.684</strong> reproducciones</li>
+                    <li><strong>28.770</strong> cuentas alcanzadas</li>
+                    <li><strong>474</strong> guardados</li>
+                    <li><strong>309</strong> envíos</li>
+                  </ul>
+                </div>
+              </article>
+
+              <article class="post-card">
+                <img src="images/cm-post-fiestas.webp" alt="Placa del posteo: Fiestas de Euskal Herria" class="post-thumb" loading="lazy">
+                <div class="post-body">
+                  <h4>Fiestas Vascas: <span class="post-sub">celebraciones que conectan con nuestras raíces</span></h4>
+                  <ul class="post-stats">
+                    <li><strong>45.413</strong> reproducciones</li>
+                    <li><strong>28.051</strong> cuentas alcanzadas</li>
+                    <li><strong>234</strong> guardados</li>
+                    <li><strong>116</strong> envíos</li>
+                  </ul>
+                </div>
+              </article>
+
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- REEL DE VIDEOS -->
+  <section class="section reel" id="reel">
+    <p class="section-label">03 — Reel</p>
+    <h2 class="section-title">Edición de video</h2>
+    <p class="section-intro">Videos para redes: ritmo, subtítulos y ganchos pensados para retener scroll.</p>
+
+    <div class="reel-list">
+      <!-- VIDEOS:START -->
+      <figure class="reel-item reel-v">
+        <div class="reel-frame"><video src="videos/01-Reel-Las-Camelias.mp4" preload="metadata" muted></video></div>
+        <figcaption class="reel-caption">Reel Las Camelias</figcaption>
+      </figure>
+      <figure class="reel-item reel-h">
+        <div class="reel-frame"><video src="videos/02-Video-Euskal-Herria.mp4" preload="metadata" muted></video></div>
+        <figcaption class="reel-caption">Video Euskal Herria</figcaption>
+      </figure>
+      <figure class="reel-item reel-v">
+        <div class="reel-frame"><video src="videos/03-Reel-Amo-Psicoyoga.mp4" preload="metadata" muted></video></div>
+        <figcaption class="reel-caption">Reel Amo Psicoyoga</figcaption>
+      </figure>
+      <!-- VIDEOS:END -->
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="cta-band-inner">
+      <p class="section-label">Siguiente paso</p>
+      <h2>¿Tenés un proyecto en mente?</h2>
+      <p class="cta-band-text">Contame tu idea y trabajemos juntos para hacerla realidad. Te respondo con una propuesta concreta.</p>
+      <div class="hero-actions">
+        <a class="btn" href="https://wa.me/5493416288721" target="_blank" rel="noopener">Escribime por WhatsApp</a>
+        <a class="btn btn-ghost" href="mailto:julencalboechene@gmail.com?subject=Proyecto%20—%20quiero%20trabajar%20con%20vos">Mandar un mail</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section class="section about" id="sobre-mi">
+    <div class="about-grid">
+      <div class="about-media">
+        <img src="images/about.png" alt="Retrato de Julen Calboechene" class="about-photo">
+      </div>
+      <div class="about-copy">
+        <p class="section-label">04 — Sobre mí</p>
+        <h2>Diseño con un pie en la tendencia y otro en la marca.</h2>
+        <p class="lede">
+          Soy Julen Calboechene, diseñador gráfico y content manager. Trabajo en la intersección
+          entre identidad visual y redes sociales: piezas gráficas, gestión de cuentas y edición
+          de video pensadas para cómo se consume contenido hoy — rápido, visual, sin perder
+          coherencia de marca.
+        </p>
+        <p class="lede muted">
+          Cada proyecto arranca por entender la marca antes que el formato: qué tiene que decir
+          y a quién le habla.
+        </p>
+        <ul class="skills-list stagger-group">
+          <li>Diseño gráfico</li>
+          <li>Community management</li>
+          <li>Piezas para redes</li>
+          <li>Edición de video</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section contact" id="contacto">
+    <p class="section-label">05 — Contacto</p>
+    <h2 class="section-title">Hablemos</h2>
+    <p class="section-intro">La vía más rápida es WhatsApp. También podés escribirme por mail o mandarme un DM.</p>
+    <div class="contact-grid stagger-group">
+      <a class="contact-link" href="https://wa.me/5493416288721" target="_blank" rel="noopener">
+        <span class="contact-kind">WhatsApp</span>
+        <span class="contact-value">+54 9 341 628-8721</span>
+      </a>
+      <a class="contact-link" href="mailto:julencalboechene@gmail.com">
+        <span class="contact-kind">Mail</span>
+        <span class="contact-value">julencalboechene@gmail.com</span>
+      </a>
+      <a class="contact-link" href="https://instagram.com/julencalboechene" target="_blank" rel="noopener">
+        <span class="contact-kind">Instagram</span>
+        <span class="contact-value">@julencalboechene</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- lightbox: opens when a project folder is clicked -->
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lightbox-inner">
+    <header class="lightbox-header">
+      <h3 id="lightboxTitle"></h3>
+      <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
+    </header>
+    <div class="lightbox-grid" id="lightboxGrid"></div>
+  </div>
+</div>
+
+<!-- image viewer: opens when a single image inside a folder is clicked, full size, nothing cropped -->
+<div class="image-viewer" id="imageViewer" hidden>
+  <button class="image-viewer-close" id="imageViewerClose" aria-label="Cerrar">&times;</button>
+  <img id="imageViewerImg" src="" alt="">
+</div>
+
+<!-- video viewer: opens when a reel is clicked, centrado y entero (contain) -->
+<div class="video-viewer" id="videoViewer" hidden>
+  <button class="video-viewer-close" id="videoViewerClose" aria-label="Cerrar">&times;</button>
+  <video id="videoViewerEl" controls playsinline></video>
+</div>
+
+<footer class="site-footer">
+  <p>Julen Calboechene — <span id="year"></span></p>
+</footer>
+
+<script src="gallery.js?v=20260828y2" defer></script>
+<script src="main.js?v=20260828z" defer></script>
+</body>
+</html>
